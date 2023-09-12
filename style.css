@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #454545;
+}
+body {
+  min-height: 100vh;
+  background: #b1eef9;
+  display: grid;
+  place-content: center;
+  border: 14px solid rgb(110, 162, 252);
+}
+body.purple {
+  background: rgb(254, 156, 254);
+}
+.btns {
+  display: flex;
+  gap: 2rem;
+}
+button {
+  padding: 1em 2em;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 1.5em;
+}
+
+h2 {
+  /* text-align: center; */
+  margin-top: 1em;
+}
